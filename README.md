@@ -80,8 +80,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Authors
 - pandukawijesinghee
 - NerandaDilhara
-- Ddevindya
 - AyeshaAmarawardhane
+- Ddevindya
 
 ### Support
 For support, email pandukawijesinghe@gmail.com
