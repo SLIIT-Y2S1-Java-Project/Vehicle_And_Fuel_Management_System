@@ -84,4 +84,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - AyeshaAmarawardhane
 
 ### Support
-For support, email [pandukawijesinghe@gmail.com]
+For support, email pandukawijesinghe@gmail.com
