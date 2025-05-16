@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+	<servlet>
+		<servlet-name>registerAdmin</servlet-name>
+		<servlet-class>Servlet.registerAdmin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>registerAdmin</servlet-name>
+		<url-pattern>/registerAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginAdmin</servlet-name>
+		<servlet-class>Servlet.loginAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>loginAdmin</servlet-name>
+		<url-pattern>/loginAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showAdmin</servlet-name>
+		<servlet-class>Servlet.showAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>showAdmin</servlet-name>
+		<url-pattern>/showAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateAdmin</servlet-name>
+		<servlet-class>Servlet.updateAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateAdmin</servlet-name>
+		<url-pattern>/updateAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteAdmin</servlet-name>
+		<servlet-class>Servlet.deleteAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deleteAdmin</servlet-name>
+		<url-pattern>/deleteAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>addStaffByAdmin</servlet-name>
+		<servlet-class>Servlet.addStaffByAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addStaffByAdmin</servlet-name>
+		<url-pattern>/addStaffByAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showStaffByAdmin</servlet-name>
+		<servlet-class>Servlet.showStaffByAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>showStaffByAdmin</servlet-name>
+		<url-pattern>/showStaffByAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>addServiceOrder</servlet-name>
+		<servlet-class>Servlet.addServiceOrder</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addServiceOrder</servlet-name>
+		<url-pattern>/addServiceOrder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteStaffByAdmin</servlet-name>
+		<servlet-class>Servlet.deleteStaffByAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deleteStaffByAdmin</servlet-name>
+		<url-pattern>/deleteStaffByAdmin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>addCustomer</servlet-name>
+		<servlet-class>Servlet.addCustomer</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addCustomer</servlet-name>
+		<url-pattern>/addCustomer</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>updateStaffByAdmin</servlet-name>
+		<servlet-class>Servlet.updateStaffByAdmin</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateStaffByAdmin</servlet-name>
+		<url-pattern>/updateStaffByAdmin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>updateStaffByAdmin2</servlet-name>
+		<servlet-class>Servlet.updateStaffByAdmin2</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateStaffByAdmin2</servlet-name>
+		<url-pattern>/updateStaffByAdmin2</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>loginCustomer</servlet-name>
+		<servlet-class>Servlet.loginCustomer</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>loginCustomer</servlet-name>
+		<url-pattern>/loginCustomer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showCustomerServices</servlet-name>
+		<servlet-class>Servlet.showCustomerServices</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>showCustomerServices</servlet-name>
+		<url-pattern>/showCustomerServices</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>showCustomerServiceDetails</servlet-name>
+		<servlet-class>Servlet.showCustomerServiceDetails</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>showCustomerServiceDetails</servlet-name>
+		<url-pattern>/showCustomerServiceDetails</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>updateVehicleServices</servlet-name>
+		<servlet-class>Servlet.updateVehicleServices</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateVehicleServices</servlet-name>
+		<url-pattern>/updateVehicleServices</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>updateVehicleservices2</servlet-name>
+		<servlet-class>Servlet.updateVehicleservices2</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateVehicleservices2</servlet-name>
+		<url-pattern>/updateVehicleservices2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteBookedService</servlet-name>
+		<servlet-class>Servlet.deleteBookedService</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deleteBookedService</servlet-name>
+		<url-pattern>/deleteBookedService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registerStaff</servlet-name>
+		<servlet-class>Servlet.registerStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registerStaff</servlet-name>
+		<url-pattern>/registerStaff</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>loginStaff</servlet-name>
+		<servlet-class>Servlet.loginStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginStaff</servlet-name>
+		<url-pattern>/loginStaff</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>updateStaff</servlet-name>
+		<servlet-class>Servlet.updateStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateStaff</servlet-name>
+		<url-pattern>/updateStaff</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteStaff</servlet-name>
+		<servlet-class>Servlet.deleteStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteStaff</servlet-name>
+		<url-pattern>/deleteStaff</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>showStaff</servlet-name>
+		<servlet-class>Servlet.showStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showStaff</servlet-name>
+		<url-pattern>/showStaff </url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showServiceByStaff</servlet-name>
+		<servlet-class>Servlet.showServiceByStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showServiceByStaff</servlet-name>
+		<url-pattern>/showServiceByStaff </url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+	<!--  <servlet>
+		<servlet-name>updateServiceByStaff </servlet-name>
+		<servlet-class>Servlet.updateServiceByStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateServiceByStaff</servlet-name>
+		<url-pattern>/updateServiceByStaff</url-pattern>
+	</servlet-mapping>
+	-->
+	<servlet>
+		<servlet-name>deleteServiceByStaff </servlet-name>
+		<servlet-class>Servlet.deleteServiceByStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteServiceByStaff</servlet-name>
+		<url-pattern>/deleteServiceByStaff</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>showAddServiceByStaff</servlet-name>
+		<servlet-class>Servlet.showAddServiceByStaff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showAddServiceByStaff</servlet-name>
+		<url-pattern>/showAddServiceByStaff</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
